@@ -1,6 +1,39 @@
 @import "normalize.css";
 @import "reset.css";
+//rem padrão 16px;
 
 body {
+    width: 100vw;
+    height: 100vh;
+}
 
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container__menu {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    border-bottom: 1px solid rgba(0, 0, 0, .8);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.menu__item {
+    padding: 1rem;
+    cursor: pointer;
 }
