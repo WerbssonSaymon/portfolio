@@ -33,7 +33,33 @@ body {
     font-size: 1.5rem;
 }
 
-.menu__item {
+.menu__item, .profile__item {
     padding: 1rem;
     cursor: pointer;
+}
+
+.container__profile {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.profile__navegation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.profile__item {
+    margin: 0.4rem 1rem 0 0;
+    border-radius: 50%;
+}
+
+.profile__image > img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
 }
