@@ -8,4 +8,5 @@
 
 a, a:link, a:visited, A:active, a:hover { 
     text-decoration: none;
+    color: #000;
 }

@@ -78,3 +78,47 @@ body {
     height: 300px;
     border-radius: 50%;
 }
+
+.container__abilities {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.abilities__block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.abilities__card {
+    width: 20rem;
+    height: 32rem;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.abilities__card > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1.5rem 0;
+}
+
+.abilities__card > div > h3 {
+    margin: 1rem 0;
+    text-transform: uppercase;
+}
+
+.abilities__card > ul > li {
+    padding: 0.2rem;
+    text-align: center;
+    text-transform: capitalize;
+}
