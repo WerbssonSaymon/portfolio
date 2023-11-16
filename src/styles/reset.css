@@ -5,3 +5,7 @@
     margin: 0;
     list-style-type: none;
 }
+
+a, a:link, a:visited, A:active, a:hover { 
+    text-decoration: none;
+}
