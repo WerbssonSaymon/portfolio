@@ -13,6 +13,11 @@ body {
     flex-direction: column;
 }
 
+.topics {
+    margin: 3rem auto;
+    text-transform: uppercase;
+}
+
 .container__menu {
     width: 100vw;
     display: flex;
@@ -20,6 +25,7 @@ body {
     justify-content: space-around;
     flex-direction: row;
     border-bottom: 1px solid rgba(0, 0, 0, .8);
+    margin-bottom: 1rem;
 }
 
 .menu {
@@ -44,6 +50,10 @@ body {
     align-items: center;
     justify-content: space-evenly;
     flex-direction: row;
+    margin: 2rem auto;
+}
+
+.profile__menu {
     margin-top: 2rem;
 }
 
@@ -100,7 +110,7 @@ body {
     border: 1px solid #000;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
 }
 
@@ -121,4 +131,55 @@ body {
     padding: 0.2rem;
     text-align: center;
     text-transform: capitalize;
+}
+
+.container__projects {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.projects__block {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.projects__card {
+    width: 22rem;
+    height: 22rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto 3.5rem;
+    text-align: center;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+
+.projects__card > h3 {
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+
+.projects__card > p {
+    margin-top: 1rem;
+}
+
+.projects__card > div > button {
+    width: 50%;
+    height: 50%;
+    margin: 1rem auto;
+    padding: 1rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
