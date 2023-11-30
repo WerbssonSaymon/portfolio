@@ -1,5 +1,6 @@
 @import "normalize.css";
 @import "reset.css";
+@import "layout.css";
 //rem padrão 16px;
 
 body {
@@ -40,11 +41,17 @@ body {
 
 .logo {
     font-size: 1.5rem;
+    text-transform: uppercase;
 }
 
 .menu__item, .profile__item {
     padding: 1rem;
     cursor: pointer;
+}
+
+.menu__link {
+    text-transform: uppercase;
+    font-weight: 500;
 }
 
 .container__profile {
@@ -220,6 +227,11 @@ body {
     justify-content: center;
 }
 
+.projects__card > div > button > a {
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
 .container__footer {
     width: 100vw;
     height: 5rem;
@@ -231,4 +243,8 @@ body {
     font-size: 1.2rem;
     text-transform: capitalize;
     font-weight: 500;
+}
+
+.footer__text {
+    text-transform: uppercase;
 }

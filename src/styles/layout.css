@@ -1,0 +1,11 @@
+:root {
+    --blue: #1e90ff;
+}
+
+.logo, .menu__link, .icon, .topics, .footer__text > a {
+    color: var(--blue);
+}
+
+.projects__card > div > button {
+    background-color: var(--blue);
+}
