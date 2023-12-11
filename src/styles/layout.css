@@ -1,11 +1,39 @@
 :root {
     --blue: #1e90ff;
+    --primary: rgba(255, 255, 255, 1);
+    --secondary: rgba(0, 0, 0, 0.8);
+    --border: 1px solid #000;
 }
 
-.logo, .menu__link, .icon, .topics, .footer__text > a {
-    color: var(--blue);
+.container__menu {
+    background-color: var(--primary);
 }
 
 .projects__card > div > button {
     background-color: var(--blue);
+}
+
+.logo, 
+.menu__link, 
+.icon, 
+.topics, 
+.footer__text > a {
+    color: var(--blue);
+}
+
+.projects__card > div > button > a {
+    color: var(--primary);
+}
+
+.abilities__card,
+.projects__card {
+    border: var(--border);
+}
+
+.container__footer {
+    border-top: var(--border);
+}
+
+.container__menu {
+    border-bottom: var(--border);
 }

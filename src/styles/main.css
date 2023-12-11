@@ -15,7 +15,7 @@ body {
 }
 
 .topics {
-    margin: 3rem auto;
+    margin: 2.5rem auto;
     text-transform: uppercase;
 }
 
@@ -25,23 +25,22 @@ body {
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
-    border-bottom: 1px solid rgba(0, 0, 0, .8);
     margin-bottom: 1rem;
     position: fixed;
-    background-color: rgba(255, 255, 255, 1);
     z-index: 1;
 }
 
 .menu {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: row;
 }
 
 .logo {
     font-size: 1.5rem;
     text-transform: uppercase;
+    margin-right: 5rem;
 }
 
 .menu__item, .profile__item {
@@ -103,7 +102,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 
 .container__about > article {
@@ -146,7 +145,6 @@ body {
 .abilities__card {
     width: 20rem;
     height: 32rem;
-    border: 1px solid #000;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -195,7 +193,6 @@ body {
     flex-direction: column;
     margin: auto 3.5rem;
     text-align: center;
-    border: 1px solid #000;
     overflow: hidden;
 }
 
@@ -228,7 +225,6 @@ body {
 }
 
 .projects__card > div > button > a {
-    color: #fff;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
 }
 
@@ -239,7 +235,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-top: 1px solid #000;
     font-size: 1.2rem;
     text-transform: capitalize;
     font-weight: 500;
