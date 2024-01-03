@@ -86,6 +86,7 @@ body {
     width: 50px;
     height: 45px;
     margin: 0.4rem 1rem 0 0;
+    border: 1px solid var(--blue);
     border-radius: 25%;
     background-color: transparent;
     padding: 0.2rem;
@@ -230,7 +231,7 @@ body {
 
 .container__footer {
     width: 100vw;
-    height: 5rem;
+    height: 4rem;
     margin-top: 2rem;
     display: flex;
     align-items: center;
