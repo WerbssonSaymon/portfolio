@@ -59,7 +59,8 @@ body {
     align-items: center;
     justify-content: space-evenly;
     flex-direction: row;
-    margin: 4rem 1rem auto;
+    margin-top: 1rem;
+    padding: 3.5rem 0;
 }
 
 .profile__menu {
@@ -72,7 +73,7 @@ body {
 }
 
 .profile__status > p {
-    margin: 1rem 0;
+    margin: 0.2rem 0;
 }
 
 .profile__navegation {
@@ -103,7 +104,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 1rem;
+    flex-direction: column; 
+    padding-top: 1rem;
 }
 
 .container__about > article {
@@ -123,6 +125,7 @@ body {
     justify-content: center;
     flex-direction: column;
     margin-top: 2rem;
+    padding-top: 1rem;
 }
 
 .container__abilities > article {
@@ -176,7 +179,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     margin-top: 1.5rem;
+    padding-top: 1rem;
 }
 
 .projects__block {
@@ -238,8 +243,9 @@ body {
 
 .container__footer {
     width: 100vw;
-    height: 4rem;
+    height: 2rem;
     margin-top: 2rem;
+    padding: 2rem 0;
     display: flex;
     align-items: center;
     justify-content: center;

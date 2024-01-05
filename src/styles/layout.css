@@ -14,13 +14,13 @@
 }
 
 .logo, 
-.menu__link {
+.menu__link,
+.footer__text > a {
     color: var(--primary);
 }
  
 .icon,
-.topics, 
-.footer__text > a {
+.topics {
     color: var(--blue);
 }
 
@@ -35,7 +35,8 @@
     border: var(--border);
 }
 
-.abilities__card {
+.abilities__card,
+.container__footer {
     background-color: var(--blue);
 }
 
