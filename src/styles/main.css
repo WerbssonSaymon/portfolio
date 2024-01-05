@@ -185,20 +185,22 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .projects__card {
-    width: 22rem;
-    height: 24rem;
+    width: 20rem;
+    height: 22rem;
     display: flex;
     flex-direction: column;
-    margin: auto 3.5rem;
+    margin: 1rem 3.5rem;
     text-align: center;
     overflow: hidden;
+    border-radius: 1rem;
 }
 
 .projects__card > h3 {
-    margin-top: 1rem;
+    margin: 1rem 0;
     text-transform: uppercase;
 }
 
@@ -210,11 +212,16 @@ body {
     margin-top: 1rem;
 }
 
+.projects__card > div {
+    display: flex;
+    flex-direction: row;
+}
+
 .projects__card > div > button {
-    width: 50%;
+    width: 40%;
     height: 50%;
     margin: 1rem auto;
-    padding: 1rem;
+    padding: 0.5rem;
     text-transform: capitalize;
     font-weight: 700;
     font-size: 1.5rem;

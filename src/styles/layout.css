@@ -17,13 +17,15 @@
 .menu__link {
     color: var(--primary);
 }
-
-.icon, 
+ 
+.icon,
 .topics, 
 .footer__text > a {
     color: var(--blue);
 }
 
+.abilities__card,
+.abilities__card > div > .icon,
 .projects__card > div > button > a {
     color: var(--primary);
 }
@@ -31,6 +33,10 @@
 .abilities__card,
 .projects__card {
     border: var(--border);
+}
+
+.abilities__card {
+    background-color: var(--blue);
 }
 
 .container__footer {
