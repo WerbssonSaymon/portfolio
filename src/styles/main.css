@@ -1,6 +1,7 @@
 @import "normalize.css";
 @import "reset.css";
 @import "layout.css";
+@import "media.css";
 //rem padrão 16px;
 
 body {
