@@ -1,0 +1,41 @@
+@media (max-width: 750px) {
+    #profile,
+    .profile__status {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .profile__status > h1 {
+        width: 90vw;
+        margin: 2rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .profile__navegation {
+        display: flex;
+        align-items: center;
+        background-color: green;
+    }
+
+    .profile__image > img {
+        display: none;
+    }
+
+    .container__about > article {
+        width: 80%;
+    }
+
+    #abilities > .abilities__block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .abilities__card {
+        margin: 0.5rem;
+    }
+}
