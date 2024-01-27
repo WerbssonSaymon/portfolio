@@ -13,17 +13,20 @@
 <body>
     <header class="container__menu">
         <h3 class="logo">Portfolio</h3>
-        <nav>
-            <ul class="menu">
-                <li class="menu__item"><a class="menu__link" href="#profile">Perfil</a></li>
-                <li class="menu__item"><a class="menu__link" href="#about">Sobre mim</a></li>
-                <li class="menu__item"><a class="menu__link" href="#abilities">Habilidades</a></li>
-                <li class="menu__item"><a class="menu__link" href="#projects">Projetos</a></li>
-            </ul>
-        </nav>
+            <nav>
+                <ul class="menu dropdown-content">
+                    <li class="menu__item"><a class="menu__link" href="#profile">Perfil</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#about">Sobre mim</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#abilities">Habilidades</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#projects">Projetos</a></li>
+                </ul>
+            </nav>  
     </header>
 
     <section id="profile" class="container__profile">
+        <div class="profile__image">
+            <img src="src/assets/perfil.jpg" alt="minha imagem">
+        </div>
         <div class="profile__status">
             <h1>Werbsson Saymon Lourêdo Silva</h1>
             <p>Analista e Desenvolvedor de Sistema</p>
@@ -38,9 +41,6 @@
                     <button class="profile__item"><a class="profile__link" href="https://criarmeulink.com.br/u/1700092779"><ion-icon name="mail-outline" size="large" class="icon"></ion-icon></a></button>
                 </nav>
             </div>
-        </div>
-        <div class="profile__image">
-            <img src="src/assets/perfil.jpg" alt="minha imagem">
         </div>
     </section>
 

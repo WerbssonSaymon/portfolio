@@ -15,7 +15,7 @@ body {
 }
 
 .topics {
-    margin: 2.5rem auto;
+    margin: 2rem auto;
     text-transform: uppercase;
 }
 
@@ -54,7 +54,7 @@ body {
 }
 
 .container__profile {
-    width: 100vw;
+    width: 90vw;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -66,7 +66,12 @@ body {
 .profile__menu {
     margin-top: 2rem;
 }
-
+.profile__image {
+    background-color: green;
+}
+.profile__status {
+    background-color: red;
+}
 .profile__status > h1 {
     font-size: 3rem;
     margin: 0.8rem 0;
@@ -110,12 +115,12 @@ body {
 }
 
 .container__about > article {
-    margin: 0 26rem;
+    margin: 4rem;
 }
 
 .container__about > article > p {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-top: 0.4rem;
 }
 
@@ -126,7 +131,7 @@ body {
     justify-content: center;
     flex-direction: column;
     margin-top: 2rem;
-    padding-top: 1rem;
+    padding: 1rem;
 }
 
 .container__abilities > article {
@@ -145,6 +150,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .abilities__card {
@@ -186,7 +192,7 @@ body {
 }
 
 .projects__block {
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -199,7 +205,7 @@ body {
     height: 22rem;
     display: flex;
     flex-direction: column;
-    margin: 1rem 3.5rem;
+    margin: 1rem 1rem;
     text-align: center;
     overflow: hidden;
     border-radius: 1rem;

@@ -1,10 +1,37 @@
 @media (max-width: 750px) {
+    body > .container__menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .logo {
+        font-size: 2rem;
+        margin-top: 0.5rem;
+        margin-left: 4rem;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu > li {
+        text-align: center;
+        font-size: 0.9em;
+    }
+
     #profile,
     .profile__status {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+    }
+
+    .profile__image {
+        margin-top: 2rem;
     }
 
     .profile__status > h1 {
@@ -14,14 +41,10 @@
         text-align: center;
     }
 
-    .profile__navegation {
+    .profile__menu > .profile__navegation {
         display: flex;
         align-items: center;
-        background-color: green;
-    }
-
-    .profile__image > img {
-        display: none;
+        justify-content: center;
     }
 
     .container__about > article {
@@ -35,7 +58,8 @@
         flex-direction: column;
     }
 
-    .abilities__card {
+    .abilities__block > .abilities__card {
+        height: 26rem;
         margin: 0.5rem;
     }
 }
