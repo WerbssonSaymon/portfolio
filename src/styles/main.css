@@ -66,12 +66,14 @@ body {
 .profile__menu {
     margin-top: 2rem;
 }
-.profile__image {
+
+/* .profile__image {
     background-color: green;
 }
 .profile__status {
     background-color: red;
-}
+} */
+
 .profile__status > h1 {
     font-size: 3rem;
     margin: 0.8rem 0;
