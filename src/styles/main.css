@@ -153,6 +153,7 @@ body {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .abilities__card {
@@ -175,6 +176,15 @@ body {
 .abilities__card > div > h3 {
     margin: 1rem 0;
     text-transform: uppercase;
+    text-align: center;
+}
+
+.abilities__card > ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 0;
 }
 
 .abilities__card > ul > li {
@@ -204,18 +214,19 @@ body {
 
 .projects__card {
     width: 20rem;
-    height: 22rem;
+    height: 28rem;
     display: flex;
     flex-direction: column;
     margin: 1rem 1rem;
     text-align: center;
-    overflow: hidden;
+    overflow: scroll;
     border-radius: 1rem;
 }
 
 .projects__card > h3 {
     margin: 1rem 0;
     text-transform: uppercase;
+    font-size: 1.5rem;
 }
 
 .projects__card > p {
